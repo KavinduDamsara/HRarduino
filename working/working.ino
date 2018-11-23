@@ -65,7 +65,7 @@ int myBPM;
        If USE_INTERRUPTS is true, Do not use pin 9 or 10 for PULSE_FADE,
        because those pins' PWM interferes with the sample timer.
 */
-const int PULSE_INPUT = A0;
+const int PULSE_INPUT = A1;
 const int PULSE_BLINK = 13;    // Pin 13 is the on-board LED
 const int PULSE_FADE = 5;
 const int THRESHOLD = 550;   // Adjust this number to avoid noise when idle
